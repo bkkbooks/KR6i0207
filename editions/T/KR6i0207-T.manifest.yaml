@@ -1,0 +1,38 @@
+canonical_identifier: bkk:krp/KR6i0207/T/v1
+canonical_location: https://kanripo.org/bkk/KR6i0207/T/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 佛說大方等修多羅王經
+  identifiers:
+    krp: KR6i0207
+    cbeta: T14n0575
+    cbeta_old_id: T14n0575
+    authorityid: CA0003603
+    json_key: T0575
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T14/T14n0575.xml
+    old_id: T14n0575
+  edition:
+    short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6i0207_000-T.yaml, hash: 'sha256:2d5e918d7c0ce137d59d2f2811ec514f28cb28ad4142d602e2c27294dc6225bb'}
+  - {seq: 1, filename: KR6i0207_001-T.yaml, hash: 'sha256:61aac4ba248ccf6561c79b2c03b4b9826763341e447fed11e7ba3b6db101f5f7'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR6i0207_000-T.markers.yaml, hash: 'sha256:c9b1ef828ed973e8cf96bedc9ee2bc9a43693fa939d86b195bb82f3e8a3b2108'}
+  - {seq: 1, role: markers, filename: assets/KR6i0207_001-T.markers.yaml, hash: 'sha256:4fcedd723e1970086a59eeb75578a1a8591f123f2b2b45aa5cb9caf47f539e9c'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6i0207_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 717
+  label: 佛說大方等修多羅王經
+  type: juan
+  level: 1
+hash: sha256:bb622bc2da98bfcad9433c1f6dd8ca90bfee46eb4f9d58a7656149d23134b7d0
