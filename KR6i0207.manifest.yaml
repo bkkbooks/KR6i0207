@@ -2,7 +2,7 @@ canonical_identifier: bkk:krp/KR6i0207/v1
 canonical_location: https://kanripo.org/bkk/KR6i0207/v1
 canonical_set:
   identifier: bkk:charset/cjk-v1
-  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+  hash: sha256:37995e65f5e6cdc8cfbc980fea50ec86663e3e7de950809f7e37f003754b3227
 metadata:
   title: 佛說大方等修多羅王經
   identifiers:
@@ -31,10 +31,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6i0207_000.yaml, hash: 'sha256:2d5e918d7c0ce137d59d2f2811ec514f28cb28ad4142d602e2c27294dc6225bb'}
-  - {seq: 1, filename: KR6i0207_001.yaml, hash: 'sha256:61aac4ba248ccf6561c79b2c03b4b9826763341e447fed11e7ba3b6db101f5f7'}
+  - {seq: 1, filename: KR6i0207_001.yaml, hash: 'sha256:29c5da234bf8f94bfa9c8de93227b95dcd3ca0978a3897db02ad6b80a36734e3'}
   markers:
   - {seq: 0, role: markers, filename: assets/KR6i0207_000.markers.yaml, hash: 'sha256:8f0b30da14c2249a715b28e460e2d5217cac33c688d6bde64b161c9996a38de3'}
-  - {seq: 1, role: markers, filename: assets/KR6i0207_001.markers.yaml, hash: 'sha256:14ff196679fedc42422dc6bc556e90a596026fff531b737e3017fe29bd5854ee'}
+  - {seq: 1, role: markers, filename: assets/KR6i0207_001.markers.yaml, hash: 'sha256:357caff16ff2c0b8b6605e861dadc5f08513ae2b986d8ae86859e7a3e2b499b5'}
 table_of_contents:
 - ref:
     seq: 1
@@ -46,4 +46,7 @@ table_of_contents:
   label: 佛說大方等修多羅王經
   type: juan
   level: 1
-hash: sha256:d93401a25d24906f9497d542d0d4c4f585bbe06ba36405652bfc5bff56c19754
+hash: sha256:57e191a0ee14d6c7778b9860a9fd33edb3627de2831203a9765e76fbc8f7cb79
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
